@@ -1,1 +1,51 @@
-Hi
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body {
+    background: url(images/Kobe2.png);
+    background-size: contain;
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(var(--hue), 100%, 20%);
+}
+
+.game-title {
+    font-size: 7rem;
+    color: gold;
+}
+
+#easy-btn, #intermediate-btn, #hard-btn {
+	box-shadow:inset 0px 1px 30px 0px #e184f3;
+	background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+	background-color:#c123de;
+	border-radius:6px;
+	border:2px solid #a511c0;
+	display:inline-block;
+	cursor:pointer;
+	color:gold;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9b14b3;
+    margin: 8%;
+}
+
+#easy-btn:hover, #intermediate-btn:hover, #hard-btn:hover {
+	background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+	background-color:#a20dbd;
+}
+
+#easy-btn:active, #intermediate-btn:active, #hard-btn:active {
+	position:relative;
+	top:1px;
+}
