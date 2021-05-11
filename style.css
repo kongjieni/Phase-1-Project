@@ -7,10 +7,11 @@
 
 .game-title {
     font-size: 5.4rem;
-    color: oldlace;
+    color: rgba(247, 244, 244, 0.934);
+	padding-bottom: 3rem;
 }
 
-.landingPage {
+.container {
 	background: url(images/nba.jpg)no-repeat;
     background-size: cover;
 	display: flex;
@@ -22,27 +23,49 @@
 	margin: 0 auto;
 	flex-direction: column;
 }
-* .btn {
+.easy-btn, .inter-btn, .epic-btn {
 	font-size: 2.4rem;
-	padding: 2rem 0;
+	padding: 2.5rem 0;
 	width: 30rem;
 	text-align: center;
 	margin-bottom: 1rem;
 	color:	rgb(28, 26, 26);
-	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background: rgb(26,70,105);
+	background: linear-gradient(90deg, rgba(26,70,105,1) 0%, rgba(223, 219, 219, 0.892) 51%, rgba(128,45,68,1) 100%);
+	border-radius: 10px;
+	text-decoration: none;
 }
 
-.btn:hover {
+.easy-btn:hover {
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(247, 244, 244, 0.803);
+	transition: transform 100ms;
+	transform: scale(1.03);
+}
+
+.inter-btn:hover {
+	cursor: pointer;
+	box-shadow: 0 0.5rem 1.5rem 0 rgba(183, 32, 206, 0.803);
+	transition: transform 150ms;
+	transform: scale(1.04);
+}
+
+.epic-btn:hover {
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 136, 32, 0.803);
+	transition: transform 200ms;
+	transform: scale(1.04);
 }
 
 .btn:active {
 	position:relative;
-	top:1px;
+	top:1px;	
 }
 
-.landingPage .gh-btn {
+.gh-btn {
 	position: absolute;
 	color: gold;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	bottom: 10%;
+	text-decoration: none;
 }
