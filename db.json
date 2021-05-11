@@ -6,7 +6,7 @@
             "lastName": "Curry",
             "teams": "Golden State Warriors",
             "numbers": "30",
-            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.nba.com%2Fheadshots%2Fnba%2Flatest%2F1040x760%2F201939.png&imgrefurl=https%3A%2F%2Fwww.nba.com%2Fplayer%2F201939%2Fstephen_curry&tbnid=nFC1H_EnwugbgM&vet=12ahUKEwiblo6C-r_wAhVSEc0KHXaBCt8QMygAegUIARCqAQ..i&docid=y-yz76McOSbjOM&w=1040&h=760&q=steph%20curry%20headshot&ved=2ahUKEwiblo6C-r_wAhVSEc0KHXaBCt8QMygAegUIARCqAQ"
+            "image": "Images/Steph Curry.png"
         },
         {
             "difficulty": "easy",
@@ -20,7 +20,7 @@
                 "23",
                 "45"
             ],
-            "image": "https://www.google.com/search?q=michael+jordan+headshot&sxsrf=ALeKk01Pk-ub_nRogMcXWWhhnWWR-D6Jlw:1620678595104&tbm=isch&source=iu&ictx=1&fir=O_szKffU1i8oKM%252CjXqB5D2-nfKt0M%252C_&vet=1&usg=AI4_-kQBcRqptTsY7_4rLp-_bpZd3u-obg&sa=X&ved=2ahUKEwiKudKf-r_wAhWLZM0KHVOmDmMQ9QF6BAgQEAE#imgrc=O_szKffU1i8oKM"
+            "image": "Images/Micheal Jordan.jpeg"
         },
         {
             "difficulty": "easy",
@@ -35,7 +35,7 @@
                 "23",
                 "6"
             ],
-            "image": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.kindpng.com%2Fpicc%2Fm%2F659-6592628_lebron-james-nba-headshot-hd-png-download.png&imgrefurl=https%3A%2F%2Fwww.kindpng.com%2Fimgv%2FToibbom_lebron-james-nba-headshot-hd-png-download%2F&tbnid=5qLjd2i5Mc1doM&vet=12ahUKEwiQ2Lbh-r_wAhUhB50JHQrvC7gQMygHegUIARDDAQ..i&docid=KRmSU9HSww-olM&w=860&h=580&q=lebron%20headshot&ved=2ahUKEwiQ2Lbh-r_wAhUhB50JHQrvC7gQMygHegUIARDDAQ"
+            "image": "Images/Lebron James.jpeg"
         },
         {
             "difficulty": "easy",
@@ -46,7 +46,7 @@
                 "8",
                 "24"
             ],
-            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc4.wallpaperflare.com%2Fwallpaper%2F808%2F564%2F1009%2Fkobe-bryant-computer-wallpaper-preview.jpg&imgrefurl=https%3A%2F%2Fwww.wallpaperflare.com%2Fkobe-bryant-computer-portrait-studio-shot-headshot-one-person-wallpaper-raia&tbnid=jAWcUQ0TupSm0M&vet=12ahUKEwii_eeB-7_wAhWZB50JHdb1BfgQMygGegUIARC2AQ..i&docid=WEQauasmVAC82M&w=728&h=410&q=kobe%20headshot&ved=2ahUKEwii_eeB-7_wAhWZB50JHdb1BfgQMygGegUIARC2AQ"
+            "image": "Images/Kobe2.png"
         },
         {
             "difficulty": "easy",
@@ -61,7 +61,7 @@
                 "35",
                 "7"
             ],
-            "image": " https://www.google.com/imgres?imgurl=http%3A%2F%2Ftsnimages.tsn.ca%2FImageProvider%2FPlayerHeadshot%3FseoId%3Dkevin-durant%26width%3D620%26height%3D620&imgrefurl=https%3A%2F%2Fwww.tsn.ca%2Fnba%2Fplayer-bio%2Fkevin-durant&tbnid=izYbiX2QCbTlmM&vet=12ahUKEwjFn_bQ-7_wAhWbJ80KHRU9CEEQMygDegUIARCxAQ..i&docid=B9I3WGSbKUp8WM&w=620&h=620&q=kevind%20durant%20headshot&hl=en&ved=2ahUKEwjFn_bQ-7_wAhWbJ80KHRU9CEEQMygDegUIARCxAQ"
+            "image": "Images/Kevin Durant.png"
         },
         {
             "difficulty": "easy",
@@ -76,7 +76,7 @@
                 "35",
                 "7"
             ],
-            "image": "https://www.google.com/search?q=James+harden+headshot&bih=978&biw=960&hl=en&sxsrf=ALeKk00XlOskfaesN12JqaujjriihT43HA:1620679125612&tbm=isch&source=iu&ictx=1&fir=lHracm5ExBDlXM%252CFBtovxvv4RSHXM%252C_&vet=1&usg=AI4_-kStIVNnoqIF_5DOQkIVhxRAyNfPhw&sa=X&ved=2ahUKEwiKqM6c_L_wAhXKHc0KHfcsAbQQ9QF6BAgLEAE#imgrc=lHracm5ExBDlXM"
+            "image": "Images/Kobe-HeadShot.jpeg"
         },
         {
             "difficulty": "easy",
@@ -84,7 +84,7 @@
             "lastName": "Antetokounmpo",
             "teams": "Milwaukee Bucks",
             "numbers": "13",
-            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.nba.com%2Fheadshots%2Fnba%2Flatest%2F1040x760%2F203507.png&imgrefurl=https%3A%2F%2Fwww.nba.com%2Fplayer%2F203507%2Fgiannis_antetokounmpo&tbnid=qLnCtZn-4XgTiM&vet=12ahUKEwissdPX_L_wAhU_Ap0JHQxoDa4QMygAegUIARCyAQ..i&docid=skLmyPNF4CRG6M&w=1040&h=760&q=giannis%20antetokounmpo%20headshot&hl=en&ved=2ahUKEwissdPX_L_wAhU_Ap0JHQxoDa4QMygAegUIARCyAQ"
+            "image": "Images/Gainnis Antetokoumpo .png"
         },
         {
             "difficulty": "medium",
