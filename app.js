@@ -1,3 +1,4 @@
+
 const playersURL = 'http://localhost:3000/players'
 
 fetch(playersURL)
@@ -9,3 +10,4 @@ fetch(playersURL)
             console.log(li)
         })
     })
+
