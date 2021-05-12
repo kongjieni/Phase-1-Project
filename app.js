@@ -22,7 +22,6 @@ fetch(playersURL)
                 easyPlayers.push(player)
             }
         })
-        console.log(easyPlayers)
         handleQuestion(currentPlayer)
         handleChoices(currentPlayer)
         shuffleChoices()
@@ -86,11 +85,16 @@ function checkAnswer(answer) {
 
 // function shufflePlayers() {
 //     for (let i = easyPlayers.length; i >=0; i--) {
-//         easyPlayers.appendChild(easyPlayers[Math.random() * i | 0])
+//         let j = Math.floor(Math.random() * (i + 1));
+//         let temp = easyPlayers[i];
+//         easyPlayers[i] = easyPlayers[j]
+//         easyPlayers[j] = temp
 //     }
 // }
-// To do list
 
-// interpolate score into results page
+
+
+
+// To do list
 
 // randomize player order
