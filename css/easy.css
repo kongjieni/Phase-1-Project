@@ -18,8 +18,15 @@ body {
 .container {
     width: 800px;
     max-width: 80%;
+    height: 50vh;
     background-color: white;
     border-radius: 6px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
+}
+
+.button-grid {
+    display: grid;
+    width: 100px;
+    height: 100px;
 }
