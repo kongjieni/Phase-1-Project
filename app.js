@@ -3,6 +3,7 @@ const container = document.querySelector('.container')
 const question = document.querySelector('#question')
 const playerImage = document.querySelector('.playerImage')
 const easyPlayers = []
+const scoreboard = document.querySelector('.scoreboard')
 let currentPlayer = 0
 let score = 0
 let correctAnswer = []
@@ -21,11 +22,15 @@ fetch(playersURL)
                 easyPlayers.push(player)
             }
         })
+        console.log(easyPlayers)
         handleQuestion(currentPlayer)
         handleChoices(currentPlayer)
         shuffleChoices()
     })
 
+answerButton4.addEventListener('click', () => {
+    checkAnswer()
+})
 
 nextButton.addEventListener('click', event => {
     event.preventDefault()
@@ -56,9 +61,9 @@ function handleQuestion(count) {
 }
 
 function handleChoices(count) {
-    answerButton1.innerText = Math.floor(Math.random() * 35)
-    answerButton2.innerText = Math.floor(Math.random() * 35)
-    answerButton3.innerText = Math.floor(Math.random() * 35)
+    answerButton1.innerText = Math.floor(Math.random() * 50)
+    answerButton2.innerText = Math.floor(Math.random() * 50)
+    answerButton3.innerText = Math.floor(Math.random() * 50)
     const playerData = easyPlayers[count]
     let correctAnswer = playerData.numbers
     answerButton4.innerText = correctAnswer[0]
@@ -70,11 +75,21 @@ function shuffleChoices() {
     }
 }
 
+function checkAnswer(answer) {
+    let correctAnswers = easyPlayers[currentPlayer].numbers
+    correctAnswers.forEach(answer => {
+        answerButton4.innerText = `${correctAnswers[0]} ✅`
+    })
+    score++
+    scoreboard.innerText = `Score: ${score}`
+}
 
-
+// function shufflePlayers() {
+//     for (let i = easyPlayers.length; i >=0; i--) {
+//         easyPlayers.appendChild(easyPlayers[Math.random() * i | 0])
+//     }
+// }
 // To do list
-
-// score - function increment score when correct, 
 
 // interpolate score into results page
 
