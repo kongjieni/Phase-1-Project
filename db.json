@@ -20,33 +20,26 @@
                 "23",
                 "45"
             ],
-            "image": "Images/Micheal Jordan.jpeg"
+            "image": "Images/kisspng-michael-jordan-basketball-player-nba-february-17-dennis-rodman-5b24951e5b5683.8798576715291241263741-removebg-preview.png"
         },
         {
             "difficulty": "easy",
             "firstName": "Lebron",
             "lastName": "James",
-            "teams": [
-                "Cleveland Cavaliers",
-                "Miami Heat",
-                "LA Lakers"
-            ],
+            "teams": ["Los Angeles Lakers"],
             "numbers": [
                 "23",
                 "6"
             ],
-            "image": "Images/Lebron James.jpeg"
+            "image": "Images/lebronjames.png"
         },
         {
             "difficulty": "easy",
             "firstName": "Kobe",
             "lastName": "Bryant",
             "teams": ["LA Lakers"],
-            "numbers": [
-                "8",
-                "24"
-            ],
-            "image": "Images/Kobe2.png"
+            "numbers": ["24"],
+            "image": "Images/i-removebg-preview.png"
         },
         {
             "difficulty": "easy",
@@ -61,22 +54,18 @@
                 "35",
                 "7"
             ],
-            "image": "Images/Kevin Durant.png"
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/201142.png"
         },
         {
             "difficulty": "easy",
             "firstName": "James",
             "lastName": "Harden",
-            "teams": [
-                "OKC Thunder",
-                "Houston Rockets",
-                "Brooklyn Nets"
-            ],
+            "teams": ["Houston Rockets"],
             "numbers": [
-                "35",
+                "13",
                 "7"
             ],
-            "image": "Images/Kobe-HeadShot.jpeg"
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/201935.png"
         },
         {
             "difficulty": "easy",
@@ -87,20 +76,52 @@
             "image": "Images/Gainnis Antetokoumpo .png"
         },
         {
-            "difficulty": "medium",
-            "firstName": "Luka",
-            "lastName": "Doncic",
-            "teams": ["Dalls Mavericks"],
-            "numbers": [77],
-            "image": "https://www.google.com/search?q=luka+doncic+headshot&sxsrf=ALeKk0318MtB6_xqI_m7NlkMjY6wyiRy_w:1620679530390&tbm=isch&source=iu&ictx=1&fir=MY8d9S-JiLqKSM%252CVQGVa3tWKOSS2M%252C_&vet=1&usg=AI4_-kRxZw2obOD0B2nlrNH1HCP_Pxw_Gg&sa=X&ved=2ahUKEwipjNDd_b_wAhWDQs0KHQGBDOQQ9QF6BAgUEAE#imgrc=MY8d9S-JiLqKSM"
+            "difficulty": "easy",
+            "firstName": "Chris",
+            "lastName": "Paul",
+            "teams": ["Phoenix Suns"],
+            "numbers": [3],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/101108.png"
+        },
+        {
+            "difficulty": "easy",
+            "firstName": "Paul",
+            "lastName": "George",
+            "teams": ["Los Angeles Clippers"],
+            "numbers": [13],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/202331.png"
+        },
+        {
+            "difficulty": "easy",
+            "firstName": "Russell",
+            "lastName": "Westbrook",
+            "teams": ["Washington Wizards"],
+            "numbers": [0],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/201566.png"
         },
         {
             "difficulty": "medium",
-            "firstName": "Karl",
-            "lastName": "Anthony-Towns",
-            "teams": ["Minnesota Timber Wolves"],
-            "numbers": [32],
-            "image": "https://www.google.com/search?q=Karl-Anthony+Towns+headshot&sxsrf=ALeKk00fgtEzBxdaIeB4Ba0U-JFeq8sqPg:1620679722994&tbm=isch&source=iu&ictx=1&fir=8cdgzLiMYXtJ_M%252CkypaoTy6cCaEFM%252C_&vet=1&usg=AI4_-kTKqi7HaL4fL9sovAuKAtHS15y1tQ&sa=X&ved=2ahUKEwi_y7u5_r_wAhWbQs0KHSnZD-IQ9QF6BAgEEAE#imgrc=8cdgzLiMYXtJ_M"
+            "firstName": "Luka",
+            "lastName": "Doncic",
+            "teams": ["Dallas Mavericks"],
+            "numbers": [77],
+            "image": "Images/Luka Doncic.png"
+        },
+        {
+            "difficulty": "medium",
+            "firstName": "Nicola",
+            "lastName": "Jokic",
+            "teams": ["Denver Nuggets"],
+            "numbers": [15],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203999.png"
+        },
+        {
+            "difficulty": "medium",
+            "firstName": "Kyrie",
+            "lastName": "Irving",
+            "teams": ["Brooklyn Nets"],
+            "numbers": [11],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/202681.png"
         },
         {
             "difficulty": "medium",
@@ -108,7 +129,7 @@
             "lastName": "Lowry",
             "teams": ["Toronto Raptors"],
             "numbers": [7],
-            "image": " https://www.google.com/search?q=Kyle+Lowry+headshot&sxsrf=ALeKk02zuQS1Ax6w2o4frEh63A0oY-EiYg:1620679823048&tbm=isch&source=iu&ictx=1&fir=I3K1sV-REMHYkM%252CIISyV_7Sy8ymzM%252C_&vet=1&usg=AI4_-kRaAaTvgkEL2LYelXi2lONO0WjxCA&sa=X&ved=2ahUKEwj9t5bp_r_wAhVBXM0KHfFyB1EQ9QF6BAgVEAE#imgrc=I3K1sV-REMHYkM"
+            "image": "Images/Kyle Lowry .png"
         },
         {
             "difficulty": "medium",
@@ -120,15 +141,23 @@
                 "Boston Celtics"
             ],
             "numbers": [20],
-            "image": "https://www.google.com/search?q=Gordon+Hayward+headshot&sxsrf=ALeKk00QhZzBA2HoowZUDKIdp6NAUymrug:1620679900284&tbm=isch&source=iu&ictx=1&fir=NZVlybdMXd67zM%252CMxUfq3aiX18EQM%252C_&vet=1&usg=AI4_-kSneE4W5FslKPGZ2_XmyTcbxAUFLw&sa=X&ved=2ahUKEwjixICO_7_wAhXSB50JHeLWCawQ9QF6BAgOEAE#imgrc=NZVlybdMXd67zM"
+            "image": "Images/Gordan Hayward.png"
         },
         {
             "difficulty": "medium",
-            "firstName": "Bam",
-            "lastName": "Adebayo",
-            "teams": ["Miami Heat"],
-            "numbers": [13],
-            "image": "https://www.google.com/search?q=bam+adebayo+headshot&sxsrf=ALeKk01maUoANBlc84D9f67AKLP--0NZtA:1620680049960&tbm=isch&source=iu&ictx=1&fir=moR4l0ZqI5CG6M%252CEs94AF6tFhUjdM%252C_&vet=1&usg=AI4_-kS7SE189-ZQaITjIfuwNpj5Kz06jQ&sa=X&ved=2ahUKEwjfjLDV_7_wAhUHOs0KHR_6CfgQ9QF6BAgOEAE#imgrc=moR4l0ZqI5CG6M"
+            "firstName": "Zion",
+            "lastName": "Williamson",
+            "teams": ["New Orleans Pelicans"],
+            "numbers": [1],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629627.png"
+        },
+        {
+            "difficulty": "medium",
+            "firstName": "Joel",
+            "lastName": "Embiid",
+            "teams": ["Philidelphia 76ers"],
+            "numbers": [21],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/203954.png"
         },
         {
             "difficulty": "medium",
@@ -136,7 +165,7 @@
             "lastName": "Green",
             "teams": ["Golden State Warriors"],
             "numbers": [23],
-            "image": "https://www.google.com/search?q=draymond+green+headshot&sxsrf=ALeKk02HUABc2PiIhFfAnn7BuIREGkiUew:1620680175835&tbm=isch&source=iu&ictx=1&fir=DjnVMTeHMVTc2M%252C2SxDGy4anS4oAM%252C_&vet=1&usg=AI4_-kSDxwHyPY227QOzRNtXIjUfJWpozg&sa=X&ved=2ahUKEwj377KRgMDwAhXMLc0KHQnzCwsQ9QF6BAgMEAE#imgrc=DjnVMTeHMVTc2M"
+            "image": "Images/Draymound Green.png"
         },
         {
             "difficulty": "medium",
@@ -148,15 +177,23 @@
                 "LA Clippers"
             ],
             "numbers": [2],
-            "image": "https://www.google.com/search?q=kawhi+leonard+headshot&sxsrf=ALeKk00jCuLLDcvw0cc0gCP7Y8-6jAI0_Q:1620680295956&tbm=isch&source=iu&ictx=1&fir=wGlbHiYu6wBXWM%252CRda9Pj4aXieZ1M%252C_&vet=1&usg=AI4_-kSIkgHQskxSioFRopAPtHbNbILOEQ&sa=X&ved=2ahUKEwiuwtbKgMDwAhWaLc0KHdTYBRsQ9QF6BAgHEAE#imgrc=wGlbHiYu6wBXWM"
+            "image": "Images/Kawhi Leonord.png"
         },
         {
-            "difficulty": "hard",
+            "difficulty": "medium",
             "firstName": "Damian ",
             "lastName": "Lillard",
             "teams": ["Portland Trail Blazers"],
             "numbers": [0],
-            "image": "https://www.google.com/search?q=Damian+Lillard+headshot&sxsrf=ALeKk005-m7PVeZr3o0Am97Nn2QrF96S6Q:1620680374860&tbm=isch&source=iu&ictx=1&fir=7QyvOkKonkif1M%252Cq_ID2o1WfRJZbM%252C_&vet=1&usg=AI4_-kRejpYwXLpNNv_2fOJ5JbxPQDYHYA&sa=X&ved=2ahUKEwiSt6bwgMDwAhUaac0KHVKIB-kQ9QF6BAgLEAE#imgrc=7QyvOkKonkif1M"
+            "image": "Images/Dam Lillard.png"
+        },
+        {
+            "difficulty": "hard",
+            "firstName": "Michael",
+            "lastName": "Porter Jr.",
+            "teams": ["Denver Nuggets"],
+            "numbers": [1],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629008.png"
         },
         {
             "difficulty": "hard",
@@ -164,7 +201,7 @@
             "lastName": "Collins",
             "teams": ["Atlanta Hawks"],
             "numbers": [20],
-            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.nba.com%2Fheadshots%2Fnba%2Flatest%2F1040x760%2F1628381.png&imgrefurl=https%3A%2F%2Fwww.nba.com%2Fplayer%2F1628381%2Fjohn_collins&tbnid=y1-W2GxyN14HqM&vet=12ahUKEwi_rvSjgcDwAhXTMs0KHb9kDxQQMygBegUIARCkAQ..i&docid=aIuvfgf4wfsA9M&w=1040&h=760&q=john%20collins%20brooklyn%20nets%20head%20shot&ved=2ahUKEwi_rvSjgcDwAhXTMs0KHb9kDxQQMygBegUIARCkAQ"
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628381.png"
         },
         {
             "difficulty": "hard",
@@ -172,7 +209,15 @@
             "lastName": "Craig",
             "teams": ["Phoenix Suns"],
             "numbers": [12],
-            "image": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.ipzusa.com%2Fwp-content%2Fuploads%2F2018%2F08%2FTorrey-Craig-headshot.jpg&imgrefurl=https%3A%2F%2Fwww.ipzusa.com%2Fsports%2Fbasketball%2Fattachment%2Ftorrey-craig-headshot%2F&tbnid=bx7mcqlga0dKSM&vet=12ahUKEwjdk9_8gsDwAhVIPs0KHWVzD_8QMygBegQIARA9..i&docid=ML09XpZtMAyqgM&w=180&h=180&itg=1&q=Torrey%20Craigheadshot&ved=2ahUKEwjdk9_8gsDwAhVIPs0KHWVzD_8QMygBegQIARA9"
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1628470.png"
+        },
+        {
+            "difficulty": "hard",
+            "firstName": "LaMelo",
+            "lastName": "Ball",
+            "teams": ["Charlotte Hornets"],
+            "numbers": [2],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1630163.png"
         },
         {
             "difficulty": "hard",
@@ -180,7 +225,7 @@
             "lastName": "Bridges",
             "teams": ["Phoenix Suns"],
             "numbers": [25],
-            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.nba.com%2Fheadshots%2Fnba%2Flatest%2F1040x760%2F1628969.png&imgrefurl=https%3A%2F%2Fwww.nba.com%2Fplayer%2F1628969%2Fmikal_bridges&tbnid=EC9oK36i3bHaFM&vet=12ahUKEwix0Nqfg8DwAhVaBc0KHYzXBd0QMygAegUIARCeAQ..i&docid=k47xoiN-tK_0_M&w=1040&h=760&q=mikal%20Bridges%20headshot&ved=2ahUKEwix0Nqfg8DwAhVaBc0KHYzXBd0QMygAegUIARCeAQ"
+            "image": "Images/Mikal Bridges.png"
         },
         {
             "difficulty": "hard",
@@ -188,36 +233,45 @@
             "lastName": "Bol",
             "teams": ["Denver Nuggets"],
             "numbers": [10],
-            "image": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.nba.com%2Fheadshots%2Fnba%2Flatest%2F1040x760%2F1629626.png&imgrefurl=https%3A%2F%2Fwww.nba.com%2Fplayer%2F1629626%2Fbol_bol&tbnid=V-nAGstiQKkdOM&vet=12ahUKEwiU777QgcDwAhUJOc0KHY-sAyQQMygAegUIARC3AQ..i&docid=acihBfA2lc2sNM&w=1040&h=760&q=bol%20bol%20headshot&ved=2ahUKEwiU777QgcDwAhUJOc0KHY-sAyQQMygAegUIARC3AQ"
+            "image": "Images/Bol Bol.png"
+        },
+        {
+            "difficulty": "hard",
+            "firstName": "Tyler",
+            "lastName": "Herro",
+            "teams": ["Miami Heat"],
+            "numbers": [14],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629639.png"
+        },
+        {
+            "difficulty": "hard",
+            "firstName": "Rui",
+            "lastName": "Hachimura",
+            "teams": ["Washington Wizards"],
+            "numbers": [8],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/1629060.png"
         },
         {
             "difficulty": "hard",
             "firstName": "Nicolas",
             "lastName": "Batum",
             "teams": [
-                "LA Clippers",
+                "Los Angeles Clippers",
                 "Charlotte Hornets",
                 " Portland Trail Blazers"
             ],
             "numbers": [33],
-            "image": " https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.nba.com%2Fheadshots%2Fnba%2Flatest%2F1040x760%2F201587.png&imgrefurl=https%3A%2F%2Fwww.nba.com%2Fplayer%2F201587%2Fnicolas_batum&tbnid=sxxR8rifRNwfrM&vet=12ahUKEwjItob_gcDwAhWGB50JHf_vC2EQMygAegQIARBT..i&docid=B4wmsMhwzt8mkM&w=1040&h=760&q=Nicols%20Batum%20headshot&ved=2ahUKEwjItob_gcDwAhWGB50JHf_vC2EQMygAegQIARBT"
+            "image": "Images/Nicolas Butam.png"
         },
         {
             "difficulty": "hard",
             "firstName": "Carmelo",
             "lastName": "Anthony",
             "teams": [
-                "Denver Nuggets",
-                "New York Knicks",
-                "Houston Rockets",
-                " Portland Trail Blazers"
+                "Portland Trail Blazers"
             ],
-            "numbers": [
-                "0",
-                "7",
-                "15"
-            ],
-            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fb.fssta.com%2Fuploads%2Fapplication%2Fnba%2Fheadshots%2F1123.vresize.350.425.medium.3.png&imgrefurl=https%3A%2F%2Fwww.foxsports.com%2Fnba%2Fcarmelo-anthony-player-injuries&tbnid=2ELbs-Vx4tUFVM&vet=12ahUKEwiNpYqugsDwAhVLYM0KHf-1A68QMygHegUIARDAAQ..i&docid=x9VBroM2hMiAhM&w=350&h=425&q=Carmelo%20ANthony%20headshot&ved=2ahUKEwiNpYqugsDwAhVLYM0KHf-1A68QMygHegUIARDAAQ"
+            "numbers": ["00"],
+            "image": "https://cdn.nba.com/headshots/nba/latest/1040x760/2546.png"
         }
     ]
 }
