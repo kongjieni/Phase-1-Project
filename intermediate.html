@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="app.js"></script>
+    <script defer src="intermediate.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/intermediate.css">
     <title>Guess that Jersey Number!</title>
 </head>
+
 <body>
-    <div id="container">
-        <div class="game">
-            <div class="hud">
-                <div class="progress-bar">
-                    
-                </div>
+    <div class="container">
+        <div class="quizInfo">
+            <div class="scoreboard">Score: 0</div>
+            <div class="questionNumber">1 of 10</div>
+        </div>
+        <div id="question-container" class="hide"></div>
+            <img class="playerImage" src="">
+            <div id="question"></div>
+            <div id="answer-buttons">
+                <button class="answer-btn1" id="btn"></button>
+                <button class="answer-btn2" id="btn"></button>
+                <button class="answer-btn3" id="btn"></button>
+                <button class="answer-btn4" id="btn"></button>
             </div>
+        <div id="controls">
+            <!-- <button id="start-btn">Start</button> -->
+            <button id="next-btn">Next</button>
         </div>
     </div>
 </body>

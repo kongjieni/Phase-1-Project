@@ -2,8 +2,10 @@ const playersURL = 'http://localhost:3000/players'
 const container = document.querySelector('.container')
 const question = document.querySelector('#question')
 const playerImage = document.querySelector('.playerImage')
-const easyPlayers = []
+const epicPlayers = []
 const scoreboard = document.querySelector('.scoreboard')
+const questionNumberHolder = document.querySelector('.questionNumber')
+let questionNumber = 1
 let currentPlayer = 0
 let score = 0
 let correctAnswer = []
@@ -18,8 +20,8 @@ fetch(playersURL)
     .then(response => response.json())
     .then(players => {
         players.forEach(player => {
-            if (player.difficulty === 'easy') {
-                easyPlayers.push(player)
+            if (player.difficulty === 'hard') {
+                epicPlayers.push(player)
             }
         })
         handleQuestion(currentPlayer)
@@ -33,13 +35,15 @@ answerButton4.addEventListener('click', () => {
 
 nextButton.addEventListener('click', event => {
     event.preventDefault()
-    if (currentPlayer >= easyPlayers.length - 1) {
+    if (currentPlayer >= epicPlayers.length - 1) {
         return handleEnding()
     }
     currentPlayer++
     handleQuestion(currentPlayer)
     handleChoices(currentPlayer)
     shuffleChoices()
+    questionNumber++
+    questionNumberHolder.innerText = `${questionNumber} of 10`
 })
 
 
@@ -49,12 +53,12 @@ function handleEnding() {
     answerButton3.remove()
     answerButton4.remove()
     nextButton.remove()
-    question.innerText = 'Congratulations!'
+    question.innerText = `You're the real mvp!`
     playerImage.remove()
 }
 
 function handleQuestion(count) {
-    const playerData = easyPlayers[count]
+    const playerData = epicPlayers[count]
     question.innerText = `${playerData.firstName} ${playerData.lastName} - ${playerData.teams[0]}`
     playerImage.src = playerData.image
 }
@@ -63,7 +67,7 @@ function handleChoices(count) {
     answerButton1.innerText = Math.floor(Math.random() * 50)
     answerButton2.innerText = Math.floor(Math.random() * 50)
     answerButton3.innerText = Math.floor(Math.random() * 50)
-    const playerData = easyPlayers[count]
+    const playerData = epicPlayers[count]
     let correctAnswer = playerData.numbers
     answerButton4.innerText = correctAnswer[0]
 }
@@ -75,26 +79,10 @@ function shuffleChoices() {
 }
 
 function checkAnswer(answer) {
-    let correctAnswers = easyPlayers[currentPlayer].numbers
+    let correctAnswers = epicPlayers[currentPlayer].numbers
     correctAnswers.forEach(answer => {
         answerButton4.innerText = `${correctAnswers[0]} ✅`
     })
-    score++
+    score += 3
     scoreboard.innerText = `Score: ${score}`
 }
-
-// function shufflePlayers() {
-//     for (let i = easyPlayers.length; i >=0; i--) {
-//         let j = Math.floor(Math.random() * (i + 1));
-//         let temp = easyPlayers[i];
-//         easyPlayers[i] = easyPlayers[j]
-//         easyPlayers[j] = temp
-//     }
-// }
-
-
-
-
-// To do list
-
-// randomize player order
