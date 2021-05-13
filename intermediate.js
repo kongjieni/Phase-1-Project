@@ -29,10 +29,23 @@ fetch(playersURL)
         shuffleChoices()
     })
 
-answerButton4.addEventListener('click', () => {
-    checkAnswer()
-})
-
+    answerButton1.addEventListener('click', () => {
+        otherButtons(answerButton1)
+    })
+    
+    answerButton2.addEventListener('click', () => {
+        otherButtons(answerButton2)
+    })
+    
+    answerButton3.addEventListener('click', () => {
+        otherButtons(answerButton3)
+    })
+    
+    answerButton4.addEventListener('click', () => {
+        checkAnswer()
+        answerButton4.setAttribute("disabled", "")
+    })
+    
 nextButton.addEventListener('click', event => {
     event.preventDefault()
     if (currentPlayer >= mediumPlayers.length - 1) {
@@ -64,12 +77,20 @@ function handleQuestion(count) {
 }
 
 function handleChoices(count) {
-    answerButton1.innerText = Math.floor(Math.random() * 50)
-    answerButton2.innerText = Math.floor(Math.random() * 50)
-    answerButton3.innerText = Math.floor(Math.random() * 50)
+    answerButton1.innerText = Math.floor(Math.random() * 99)
+    answerButton2.innerText = Math.floor(Math.random() * 99)
+    answerButton3.innerText = Math.floor(Math.random() * 99)
     const playerData = mediumPlayers[count]
     let correctAnswer = playerData.numbers
     answerButton4.innerText = correctAnswer[0]
+    answerButton1.style.opacity = 1
+    answerButton2.style.opacity = 1
+    answerButton3.style.opacity = 1
+    answerButton1.removeAttribute("disabled")
+    answerButton2.removeAttribute("disabled")
+    answerButton3.removeAttribute("disabled")
+    answerButton4.innerText = correctAnswer[0]
+    answerButton4.removeAttribute("disabled")
 }
 
 function shuffleChoices() {
@@ -81,8 +102,16 @@ function shuffleChoices() {
 function checkAnswer(answer) {
     let correctAnswers = mediumPlayers[currentPlayer].numbers
     correctAnswers.forEach(answer => {
-        answerButton4.innerText = `${correctAnswers[0]} ✅`
+        answerButton4.innerText = '✅'
     })
     score += 2
     scoreboard.innerText = `Score: ${score}`
+}
+
+function otherButtons(button) {
+    button.style.opacity = .5
+    button.innerText = '❌'
+    score --
+    scoreboard.innerText = `Score: ${score}`
+    button.setAttribute('disabled', "")
 }

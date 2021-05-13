@@ -57,10 +57,7 @@
 	transform: scale(1.04);
 }
 
-.btn:active {
-	position:relative;
-	top:1px;	
-}
+
 
 .gh-btn {
 	position: absolute;
