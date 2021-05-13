@@ -111,3 +111,17 @@ body {
 .questionNumber {
     font-size: 1.5rem;
 }
+
+.homeButton {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+.finalScore{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 5rem;
+}

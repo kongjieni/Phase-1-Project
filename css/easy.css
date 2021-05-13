@@ -111,3 +111,24 @@ body {
 .questionNumber {
     font-size: 1.5rem;
 }
+
+.finalPage {
+  font-size: 5rem;
+ text-align: center;
+ line-height: 3rem;
+ 
+}
+
+.finalScore{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 5rem;
+}
+
+.homeButton {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
