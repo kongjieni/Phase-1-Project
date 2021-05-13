@@ -33,7 +33,7 @@ body {
 }
 
 .playerImage {
-    width: 37%;
+    width: 35%;
     height: 40%;
 }
 
@@ -110,4 +110,11 @@ body {
 
 .questionNumber {
     font-size: 1.5rem;
+}
+
+.homeButton {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
 }

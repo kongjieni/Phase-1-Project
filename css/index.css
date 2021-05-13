@@ -9,6 +9,7 @@
     font-size: 5.4rem;
     color: rgba(247, 244, 244, 0.934);
 	padding-bottom: 3rem;
+	text-align: center;
 }
 
 .index-container {
@@ -57,11 +58,6 @@
 	transform: scale(1.04);
 }
 
-.btn:active {
-	position:relative;
-	top:1px;	
-}
-
 .gh-btn {
 	position: absolute;
 	color: gold;
@@ -69,3 +65,14 @@
 	bottom: 10%;
 	text-decoration: none;
 }
+
+span {
+	opacity: .1;
+	transition: all 0.7s ease;
+}
+
+span.fade {
+	opacity: 1;
+	color: white
+}
+
