@@ -111,7 +111,7 @@ function checkAnswer(answer) {
 function otherButtons(button) {
     button.style.opacity = .5
     button.innerText = '❌'
-    score --
+    score -= 2
     scoreboard.innerText = `Score: ${score}`
     button.setAttribute('disabled', "")
 }
