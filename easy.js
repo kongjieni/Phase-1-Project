@@ -22,9 +22,6 @@ finalScore.href = "easy.html"
 
 
 
-
-
-
 fetch(playersURL)
     .then(response => response.json())
     .then(players => {
@@ -61,7 +58,6 @@ nextButton.addEventListener('click', event => {
     if (currentPlayer >= easyPlayers.length - 1) {
         return handleEnding()
     }
-
     currentPlayer++
     handleQuestion(currentPlayer)
     handleChoices(currentPlayer)
@@ -79,25 +75,21 @@ function handleEnding() {
     nextButton.remove()
     question.remove()
     playerImage.remove()
-    scoreboard.remove()
-    questionNumberHolder.remove()
-    
-    if(parseInt(score) <= 0){
+
+    if (parseInt(score) <= 2) {
+        finalScore.href = "easy.html"
         finalScore.innerText = "Play Again"
     } else if (parseInt(score) > 0) {
         finalScore.href = "intermediate.html"
         finalScore.innerText = "Next Level"
     }
     finalPage.append(finalScore)
-    finalPage.append(homeButton)
 }
 
 function handleQuestion(count) {
     const playerData = easyPlayers[count]
     question.innerText = `${playerData.firstName} ${playerData.lastName} - ${playerData.teams[0]}`
     playerImage.src = playerData.image
-
-
 }
 
 function handleChoices(count) {
@@ -129,7 +121,6 @@ function checkAnswer(answer) {
     })
     score++
     scoreboard.innerText = `Score: ${score}`
-
 }
 
 function otherButtons(button) {

@@ -63,7 +63,6 @@ nextButton.addEventListener('click', event => {
     questionNumberHolder.innerText = `${questionNumber} of 10`
 })
 
-
 function handleEnding() {
     answerButton1.remove()
     answerButton2.remove()
@@ -72,8 +71,6 @@ function handleEnding() {
     nextButton.remove()
     question.remove()
     playerImage.remove()
-    scoreboard.remove()
-    questionNumberHolder.remove()
 
     if (parseInt(score) <= 2) {
         finalScore.href = "intermediate.html"
@@ -83,9 +80,7 @@ function handleEnding() {
         finalScore.innerText = "Next Level"
     }
     finalPage.append(finalScore)
-    finalPage.append(homeButton)
 }
-
 
 function handleQuestion(count) {
     const playerData = mediumPlayers[count]

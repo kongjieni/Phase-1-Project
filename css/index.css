@@ -39,7 +39,7 @@
 
 .easy-btn:hover {
 	cursor: pointer;
-	box-shadow: 0 0.4rem 1.4rem 0 rgba(247, 244, 244, 0.803);
+	box-shadow: 0 0.4rem 1.4rem 0 rgb(0, 94, 255);
 	transition: transform 100ms;
 	transform: scale(1.03);
 }
@@ -60,10 +60,11 @@
 
 .gh-btn {
 	position: absolute;
-	color: gold;
+	color: orange;
 	font-size: 1.1rem;
 	bottom: 10%;
 	text-decoration: none;
+	border-radius: 8px;
 }
 
 span {
