@@ -73,14 +73,12 @@ function handleEnding() {
     nextButton.remove()
     question.remove()
     playerImage.remove()
-    scoreboard.remove()
-    questionNumberHolder.remove()
 
     if (parseInt(score) <= 2) {
         finalScore.href = "epic.html"
         finalScore.innerText = "Play Again"
     } else if (parseInt(score) > 0) {
-        finalScore.innerText = "WINNER"
+        finalScore.innerText = "WINNER!"
     }
     finalPage.append(finalScore)
 }
