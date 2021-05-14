@@ -89,7 +89,7 @@ function handleEnding() {
         finalScore.innerText = "Next Level"
     }
     finalPage.append(finalScore)
-    finalPage.append(homeButton)
+    
 }
 
 function handleQuestion(count) {

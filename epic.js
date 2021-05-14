@@ -9,12 +9,17 @@ let questionNumber = 1
 let currentPlayer = 0
 let score = 0
 let correctAnswer = []
+const finalPage = document.querySelector('.finalPage')
 const answerButton1 = document.querySelector('.answer-btn1')
 const answerButton2 = document.querySelector('.answer-btn2')
 const answerButton3 = document.querySelector('.answer-btn3')
 const answerButton4 = document.querySelector('.answer-btn4')
 const answerButtons = document.querySelector('#answer-buttons')
+const homeButton = document.querySelector('.homeButton')
 const nextButton = document.querySelector('#next-btn')
+const finalScore = document.createElement('a')
+finalScore.className = "finalScore"
+
 
 fetch(playersURL)
     .then(response => response.json())
@@ -66,9 +71,20 @@ function handleEnding() {
     answerButton3.remove()
     answerButton4.remove()
     nextButton.remove()
-    question.innerText = `You're the real mvp!`
+    question.remove()
     playerImage.remove()
+    scoreboard.remove()
+    questionNumberHolder.remove()
+
+    if (parseInt(score) <= 2) {
+        finalScore.href = "epic.html"
+        finalScore.innerText = "Play Again"
+    } else if (parseInt(score) > 0) {
+        finalScore.innerText = "WINNER"
+    }
+    finalPage.append(finalScore)
 }
+    
 
 function handleQuestion(count) {
     const playerData = epicPlayers[count]

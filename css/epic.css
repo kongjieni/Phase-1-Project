@@ -118,3 +118,10 @@ body {
     text-decoration: none;
     display: flex;
 }
+
+.finalScore {
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 5rem;
+    }
